@@ -1,5 +1,11 @@
 import { BoardCellType } from "../../common/interfaces";
-import { StyledPaperCell, StyledTypographyCenter, StyledTypographyIndex } from "../../styles/StyledComponents";
+import {
+  StyledPaperCell,
+  StyledTypographyCenter,
+  StyledTypographyIndex,
+} from "../../styles/StyledComponents";
+import "../../styles/BoardCell.css";
+
 
 //this component defines the look of each cell
 
@@ -14,22 +20,19 @@ export default function BoardCell({
   arrayLength: number;
   handleClickedCell: Function;
 }) {
-
-
+  const handleClicked = (item: BoardCellType) => {
+    handleClickedCell(item);
+  };
 
   return (
     <StyledPaperCell>
-     <StyledTypographyIndex>
-        {index}
-     </StyledTypographyIndex>
+      <StyledTypographyIndex>{index}</StyledTypographyIndex>
       {index === (arrayLength - 1) / 2 ? (
-        <StyledTypographyCenter>
-            {item.word}
-        </StyledTypographyCenter>
+        <StyledTypographyCenter>{item.word}</StyledTypographyCenter>
       ) : (
-        <p>
-            {item.word}
-        </p>
+        <p onClick={() => handleClicked(item)}
+        className={item.clicked === true ? "line-through" : ""}
+        >{item.word}</p>
       )}
     </StyledPaperCell>
   );

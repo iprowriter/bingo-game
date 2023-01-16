@@ -26,7 +26,7 @@ export default function Header({checked, handleChange}: any) {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            Bingo
+            <i>Sensory Bingo</i>
           </Typography>
           Dark Mode
           <Switch

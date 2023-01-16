@@ -3,6 +3,8 @@ import Header from './components/Header';
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
 import Board from './components/Game/Board';
+import { StyledGrid } from './styles/StyledComponents';
+
 
 
 
@@ -25,7 +27,10 @@ function App() {
       <ThemeProvider theme={darkTheme}>
         <CssBaseline />
         <Header checked={checked} handleChange={handleChange} />
+        <StyledGrid container sx={{ paddingX: { xs: "0", md: "27%", lg: "28%" }, marginTop: "43px"}}>
         <Board/>
+        </StyledGrid>
+        
       </ThemeProvider>
     </>
   );

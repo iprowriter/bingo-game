@@ -1,0 +1,21 @@
+@keyframes line-through {
+    0% {
+      text-decoration: none; /* No line through the text */
+      opacity: 0; /* Line is invisible */
+    }
+    50% {
+      text-decoration: line-through; /* Line through the text */
+      opacity: 0.5; /* Line is visible */
+    }
+    100% {
+      text-decoration: line-through; /* Line through the text */
+      opacity: 1; /* Line is visible */
+    }
+  }
+  
+  .line-through {
+    animation: line-through 1s ease-in-out;
+    animation-fill-mode: forwards;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  

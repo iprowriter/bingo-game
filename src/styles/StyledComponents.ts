@@ -1,11 +1,11 @@
 import { styled } from "@mui/material/styles";
 import Paper from "@mui/material/Paper";
-import { Typography } from "@mui/material";
+import { Grid, Typography } from "@mui/material";
 
 //StyledPaper component is used as the main background for the board cells
 export const StyledPaper = styled(Paper)(({ theme }) => ({
   backgroundColor: "#1A2027",
-  width: 700,
+  width: 690,
   display: "grid",
   gridGap: 10,
   gridTemplateColumns: "repeat(5, 130px)",
@@ -46,3 +46,8 @@ export const StyledTypographyIndex = styled(Typography)(() => ({
   top: 0,
   right: 5,
 }));
+
+//StyledGrid to Center the Board in the Center
+export const StyledGrid = styled(Grid)(() => ({
+    
+  }));
