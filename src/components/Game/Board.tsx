@@ -1,6 +1,7 @@
 import React from "react";
 import { Box } from "@mui/system";
 import data from "../../data/data.json";
+import data2 from "../../data/data2.json";
 import BoardCell from "./BoardCell";
 import { BoardCellType } from "../../common/interfaces";
 import createGrid from "../../functions/gridGenerator";
@@ -9,11 +10,12 @@ import checkWin from "../../functions/checkWin";
 import { useWindowSize } from "react-use";
 import Confetti from 'react-confetti';
 
-export default function Board() {
+export default function Board() {  
   const [boardData, setBoardData] = React.useState<BoardCellType[]>([]);
   const [selectedCells, setSelectedCells] = React.useState<BoardCellType[]>([]);
   const [win, setWin] = React.useState<Boolean>(false);
   const { width, height } = useWindowSize();
+  
 
   //Generating board
   //A win happens when the result variable is no longer empty.

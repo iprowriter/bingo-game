@@ -15,7 +15,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 7. React-Confetti
 
 # HOW TO RUN THIS PROJECT:
-1. clone this project
+1. Clone this project
 2. Run `npm install`
 3. Run `npm start`
 

@@ -1,17 +1,14 @@
-import React from 'react';
-import Header from './components/Header';
+import React from "react";
+import Header from "./components/Header";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
-import Board from './components/Game/Board';
-import { StyledGrid } from './styles/StyledComponents';
-
-
-
-
+import Board from "./components/Game/Board";
+import { StyledGrid } from "./styles/StyledComponents";
+import { Grid } from "@mui/material";
 
 function App() {
   //make darkmode toggle
-  const [checked, setChecked] = React.useState(false);
+  const [checked, setChecked] = React.useState(true);
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setChecked(event.target.checked);
   };
@@ -27,10 +24,18 @@ function App() {
       <ThemeProvider theme={darkTheme}>
         <CssBaseline />
         <Header checked={checked} handleChange={handleChange} />
-        <StyledGrid container sx={{ paddingX: { xs: "0", md: "27%", lg: "28%" }, marginTop: "43px"}}>
-        <Board/>
-        </StyledGrid>
-        
+
+        <Grid
+          container
+          alignItems="center"
+          justifyItems="center"
+          direction="column"
+          marginTop={10}
+        >
+          <Grid item>
+            <Board />
+          </Grid>
+        </Grid>
       </ThemeProvider>
     </>
   );

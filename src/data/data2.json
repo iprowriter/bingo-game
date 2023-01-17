@@ -1,12 +1,12 @@
 
   [{
-    "word": "It works fine on my machine 🤯",
+    "word": "It works fine 🤯",
     "clicked": false,
     "x": 0,
     "y": 0
   },
   {
-    "word": "It’s not a bug, it’s a feature 😔",
+    "word": "It’s not a bug,",
     "clicked": false,
     "x": 1,
     "y": 0
@@ -18,13 +18,13 @@
     "y": 0
   },
   {
-    "word": "You must have entered the wrong data and crashed it",
+    "word": "You must have entered ",
     "clicked": false,
     "x": 3,
     "y": 0
   },
   {
-    "word": "There is something funky in your data",
+    "word": "There is something funky ",
     "clicked": false,
     "x": 4,
     "y": 0
