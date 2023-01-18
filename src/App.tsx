@@ -3,7 +3,6 @@ import Header from "./components/Header";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
 import Board from "./components/Game/Board";
-import { StyledGrid } from "./styles/StyledComponents";
 import { Grid } from "@mui/material";
 
 function App() {

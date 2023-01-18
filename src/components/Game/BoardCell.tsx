@@ -5,6 +5,7 @@ import {
   StyledTypographyIndex,
 } from "../../styles/StyledComponents";
 import "../../styles/BoardCell.css";
+import { Typography } from "@mui/material";
 
 
 //this component defines the look of each cell
@@ -30,9 +31,9 @@ export default function BoardCell({
       {index === (arrayLength - 1) / 2 ? (
         <StyledTypographyCenter>{item.word}</StyledTypographyCenter>
       ) : (
-        <p onClick={() => handleClicked(item)}
+        <Typography onClick={() => handleClicked(item)}
         className={item.clicked === true ? "line-through" : ""}
-        >{item.word}</p>
+        >{item.word}</Typography>
       )}
     </StyledPaperCell>
   );

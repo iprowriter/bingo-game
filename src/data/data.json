@@ -18,7 +18,7 @@
     "y": 0
   },
   {
-    "word": "You must have entered the wrong data and crashed it",
+    "word": "You must have entered the wrong data ",
     "clicked": false,
     "x": 3,
     "y": 0
@@ -132,7 +132,7 @@
     "y": 4
   },
   {
-    "word": "Did you already check for solution on stackoverflow?",
+    "word": "Did you already check on stackoverflow?",
     "clicked": false,
     "x": 2,
     "y": 4

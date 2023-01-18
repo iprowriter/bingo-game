@@ -1,21 +1,20 @@
 import React from "react";
 import { Box } from "@mui/system";
 import data from "../../data/data.json";
-import data2 from "../../data/data2.json";
 import BoardCell from "./BoardCell";
 import { BoardCellType } from "../../common/interfaces";
 import createGrid from "../../functions/gridGenerator";
 import { StyledPaper } from "../../styles/StyledComponents";
 import checkWin from "../../functions/checkWin";
 import { useWindowSize } from "react-use";
-import Confetti from 'react-confetti';
+import Confetti from "react-confetti";
+import { Typography } from "@mui/material";
 
-export default function Board() {  
+export default function Board() {
   const [boardData, setBoardData] = React.useState<BoardCellType[]>([]);
   const [selectedCells, setSelectedCells] = React.useState<BoardCellType[]>([]);
   const [win, setWin] = React.useState<Boolean>(false);
   const { width, height } = useWindowSize();
-  
 
   //Generating board
   //A win happens when the result variable is no longer empty.
@@ -28,8 +27,6 @@ export default function Board() {
       setWin(true);
     }
   }, [boardData, selectedCells]);
-
- 
 
   //function getClickedCells fetch the clicked cells and update its value in the parent state
   const getClickedCells = (item: BoardCellType) => {
@@ -48,8 +45,8 @@ export default function Board() {
     );
   };
 
-   //this function is to add the selected Cells in a seperate Array
-   const handleSelectedCells = (cell: BoardCellType) => {
+  //this function is to add the selected Cells in a seperate Array
+  const handleSelectedCells = (cell: BoardCellType) => {
     if (cell.clicked === false) {
       setSelectedCells(selectedCells.filter((c) => c.word !== cell.word));
       setWin(false);
@@ -60,6 +57,9 @@ export default function Board() {
 
   return (
     <Box sx={{ width: "100%" }}>
+      <Typography variant="h5" sx={{textAlign: "center"}}>
+        What a programmer might say:
+      </Typography>
       <StyledPaper>
         {boardData.map((item: any, index: number) => (
           <BoardCell
@@ -71,10 +71,7 @@ export default function Board() {
           />
         ))}
       </StyledPaper>
-      { win && <Confetti
-      width={width}
-      height={height}
-    /> }
+      {win && <Confetti width={width} height={height} />}
     </Box>
   );
 }

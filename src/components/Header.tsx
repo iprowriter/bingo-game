@@ -5,6 +5,8 @@ import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Switch from "@mui/material/Switch";
 
+//this is Navbar component, with toggle dark mode button
+
 
 export default function Header({checked, handleChange}: any) {
    
