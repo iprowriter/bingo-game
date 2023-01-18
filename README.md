@@ -32,4 +32,4 @@ Another good option to consider in place of TypeScript is Tailwind Css.
 5. Some of the components feature could not be achieved using MUI. Therefore, it was necessary to use bare-boned CSS at some point.
 6. [React-Use](https://www.npmjs.com/package/react-use) was used in this project to be able to access with window object and used it with a library called React-Confetti.
 7. [React-Confetti](https://www.npmjs.com/package/react-confetti) is a lightweight CSS library for achieving confetti effect on react projects. It was used in this project to display Confetti effect when a player wins the game.
-8.[Unicode-Emoji](https://unicode.org/emoji/charts/full-emoji-list.html) was also used to make the data a lit bit more colorful 
+8. [Unicode-Emoji](https://unicode.org/emoji/charts/full-emoji-list.html) was also used to make the data a lit bit more colorful 
