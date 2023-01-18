@@ -1,6 +1,6 @@
 
   [{
-    "word": "It works fine on my machine 🤯",
+    "word": "It works fine on my machine 😉",
     "clicked": false,
     "x": 0,
     "y": 0
@@ -12,61 +12,61 @@
     "y": 0
   },
   {
-    "word": "It worked yesterday",
+    "word": "It worked yesterday 😮",
     "clicked": false,
     "x": 2,
     "y": 0
   },
   {
-    "word": "You must have entered the wrong data ",
+    "word": "You must have entered the wrong data 😦",
     "clicked": false,
     "x": 3,
     "y": 0
   },
   {
-    "word": "There is something funky in your data",
+    "word": "There is something funky in your data 😁",
     "clicked": false,
     "x": 4,
     "y": 0
   },
   {
-    "word": "How is that possible?",
+    "word": "How is that possible? 🤔",
     "clicked": false,
     "x": 0,
     "y": 1
   },
   {
-    "word": "It’s never done that before",
+    "word": "It’s never done that before 🤗",
     "clicked": false,
     "x": 1,
     "y": 1
   },
   {
-    "word": "Have you checked your network settings?",
+    "word": "Have you checked your network settings? 🙂",
     "clicked": false,
     "x": 2,
     "y": 1
   },
   {
-    "word": "Turn it off and turn it on again",
+    "word": "Turn it off and turn it on again 🤨",
     "clicked": false,
     "x": 3,
     "y": 1
   },
   {
-    "word": "Somebody must have changed my code",
+    "word": "Somebody must have changed my code 😒",
     "clicked": false,
     "x": 4,
     "y": 1
   },
   {
-    "word": "I will fix it tomorrow",
+    "word": "I will fix it tomorrow 😒",
     "clicked": false,
     "x": 0,
     "y": 2
   },
   {
-    "word": "Who did you login as? Are you an administrator?",
+    "word": "Who did you login as? Are you an administrator? 🙄",
     "clicked": false,
     "x": 1,
     "y": 2
@@ -78,67 +78,67 @@
     "y": 2
   },
   {
-    "word": "What is the latest Javascript framework?",
+    "word": "What is the latest Javascript framework? 🤓",
     "clicked": false,
     "x": 3,
     "y": 2
   },
   {
-    "word": "It works, but I didn’t write any unit tests",
+    "word": "It works, but I didn’t write any unit tests 🤗",
     "clicked": false,
     "x": 4,
     "y": 2
   },
   {
-    "word": "I can’t unit test everything!",
+    "word": "I can’t unit test everything! 🙁",
     "clicked": false,
     "x": 0,
     "y": 3
   },
   {
-    "word": "You must have the wrong library version",
+    "word": "You must have the wrong library version 🥱",
     "clicked": false,
     "x": 1,
     "y": 3
   },
   {
-    "word": "I haven’t touched that part of the code for weeks!",
+    "word": "I haven’t touched that part of the code for weeks! 🤭",
     "clicked": false,
     "x": 2,
     "y": 3
   },
   {
-    "word": "I'm not the person that crashed the production server",
+    "word": "I'm not the person that crashed the production server 😮",
     "clicked": false,
     "x": 3,
     "y": 3
   },
   {
-    "word": "I’m pretty sure I’ve already fixed that",
+    "word": "I’m pretty sure I’ve already fixed that 😲",
     "clicked": false,
     "x": 4,
     "y": 3
   },
   {
-    "word": "My git has diverged",
+    "word": "My git has diverged 🥺",
     "clicked": false,
     "x": 0,
     "y": 4
   },
   {
-    "word": "Maybe I'm not cut out to be a programmer",
+    "word": "Maybe I'm not cut out to be a programmer 😳",
     "clicked": false,
     "x": 1,
     "y": 4
   },
   {
-    "word": "Did you already check on stackoverflow?",
+    "word": "Did you already check on stackoverflow? 🧐",
     "clicked": false,
     "x": 2,
     "y": 4
   },
   {
-    "word": "Come and see it in action if you don’t believe me",
+    "word": "Come and see it in action if you don’t believe me 😎",
     "clicked": false,
     "x": 3,
     "y": 4
