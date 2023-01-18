@@ -15,7 +15,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 7. React-Confetti
 
 # HOW TO RUN THIS PROJECT:
-1. Clone this project: `https://github.com/iprowriter/bingo-game.git`
+1. Clone this project: `git clone https://github.com/iprowriter/bingo-game.git`
 2. Run `npm install` at the root of the folder (bingo-game)
 3. Run `npm start`
 
