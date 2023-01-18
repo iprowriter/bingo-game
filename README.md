@@ -24,7 +24,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 **REASONS FOR USING TECHNOLOGIES MENTIONED ABOVE**
 1. React is the dependable library. It is suitable for this project because it is fast and no SEO required. 
-In case SEO is required fo this project, then it will be better to switch to [NextJs].
+In case SEO is required fo this project, then it will be better to switch to [NextJs](https://nextjs.org/).
 2. Typescript used in this code to enforce type.
 3. Material-UI (MUI) is an easy CSS framework that works perfectly with react. 
 Another good option to consider in place of TypeScript is Tailwind Css.
@@ -33,5 +33,4 @@ Another good option to consider in place of TypeScript is Tailwind Css.
 6. React-Use was used in this project to be able to access with window object and used it with a library called React-Confetti.
 7. [React-Confetti](https://www.npmjs.com/package/react-confetti) is a lightweight CSS library for achieving confetti effect on react projects. It was used in this project to display Confetti effect when a player wins the game.
 
-
-[Unicode Emoji] (https://unicode.org/emoji/charts/full-emoji-list.html) was also used to make the data a lit bit more colorful 
+ [Unicode-Emoji](https://unicode.org/emoji/charts/full-emoji-list.html) was also used to make the data a lit bit more colorful 
