@@ -3,6 +3,7 @@
 # Author: MARTIN OPUTA
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+View the deployed live version: https://bingo-game-gcnn.onrender.com
 
 ## TECHNOLOGIES USED FOR THIS PROJECT
 
@@ -13,6 +14,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 5. CSS3
 6. React-Use
 7. React-Confetti
+8. Unicode-Emoji
+9. Render
 
 # HOW TO RUN THIS PROJECT:
 1. Clone this project: `git clone https://github.com/iprowriter/bingo-game.git`
@@ -33,3 +36,9 @@ Another good option to consider in place of TypeScript is Tailwind Css.
 6. [React-Use](https://www.npmjs.com/package/react-use) was used in this project to be able to access with window object and used it with a library called React-Confetti.
 7. [React-Confetti](https://www.npmjs.com/package/react-confetti) is a lightweight CSS library for achieving confetti effect on react projects. It was used in this project to display Confetti effect when a player wins the game.
 8. [Unicode-Emoji](https://unicode.org/emoji/charts/full-emoji-list.html) was also used to make the data a lit bit more colorful 
+9. Render platform was used as an alternative to Heroku in the deployment of this project. Click this link to view the live version of the game: [Bing-game-live-version](https://bingo-game-gcnn.onrender.com)
+
+# HOW TO PLAY THIS GAME:
+- A player wins by completing a row, column, or diagonal.
+- There's a free slot (always on) in the middle
+- You can have multiple bingos

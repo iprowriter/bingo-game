@@ -1,15 +1,49 @@
 import { styled } from "@mui/material/styles";
 import Paper from "@mui/material/Paper";
-import { Grid, Typography } from "@mui/material";
+import { Typography } from "@mui/material";
 
 //StyledPaper component is used as the main background for the board cells
 export const StyledPaper = styled(Paper)(({ theme }) => ({
-  backgroundColor: "#1A2027",
-  width: 690,
-  display: "grid",
-  gridGap: 10,
-  gridTemplateColumns: "repeat(5, 130px)",
-  gridTemplateRows: "repeat(5, 130px)",
+  [theme.breakpoints.up("xs")]: {
+    backgroundColor: "#1A2027",
+    width: "auto",
+    display: "grid",
+    gridGap: 1,
+    gridTemplateColumns: "repeat(5, 110px)",
+    gridTemplateRows: "repeat(5, 110px)",
+  },
+  [theme.breakpoints.up("sm")]: {
+    backgroundColor: "#1A2027",
+    width: "auto",
+    display: "grid",
+    gridGap: 4,
+    gridTemplateColumns: "repeat(5, 110px)",
+    gridTemplateRows: "repeat(5, 110px)",
+  },
+  [theme.breakpoints.up("md")]: {
+    backgroundColor: "#1A2027",
+    width: 690,
+    display: "grid",
+    gridGap: 10,
+    gridTemplateColumns: "repeat(5, 130px)",
+    gridTemplateRows: "repeat(5, 130px)",
+  },
+  [theme.breakpoints.up("lg")]: {
+    backgroundColor: "#1A2027",
+    width: 690,
+    display: "grid",
+    gridGap: 10,
+    gridTemplateColumns: "repeat(5, 130px)",
+    gridTemplateRows: "repeat(5, 130px)",
+  },
+  [theme.breakpoints.up("xl")]: {
+    backgroundColor: "#1A2027",
+    width: 690,
+    display: "grid",
+    gridGap: 10,
+    gridTemplateColumns: "repeat(5, 130px)",
+    gridTemplateRows: "repeat(5, 130px)",
+  },
 }));
 
 //StyledPaperCell is used to build the grid for the cells
@@ -23,7 +57,6 @@ export const StyledPaperCell = styled(Paper)(({ theme }) => ({
   alignItems: "center",
   position: "relative",
   cursor: "pointer",
-  
 }));
 
 //StyledTypographyCenter is used Typography to center the items
@@ -47,7 +80,4 @@ export const StyledTypographyIndex = styled(Typography)(() => ({
   right: 5,
 }));
 
-//StyledGrid to Center the Board in the Center
-export const StyledGrid = styled(Grid)(() => ({
-    
-  }));
+
