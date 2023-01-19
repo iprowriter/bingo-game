@@ -3,6 +3,7 @@ import Paper from "@mui/material/Paper";
 import { Typography } from "@mui/material";
 
 //StyledPaper component is used as the main background for the board cells
+//It also has definition for different breakpoints for responsiveness
 export const StyledPaper = styled(Paper)(({ theme }) => ({
   [theme.breakpoints.up("xs")]: {
     backgroundColor: "#1A2027",
